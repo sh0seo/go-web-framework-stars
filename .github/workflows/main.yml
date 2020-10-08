@@ -1,0 +1,30 @@
+name: update
+
+on:
+  schedule:
+    - cron: "0 0 * * SUN"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        ref: "master"
+    - uses: actions/setup-go@v1
+      with:
+        go-version: "1.13"
+    - run: |
+        echo ${{ secrets.TOKEN }} >> access_token.txt
+        go run list2md.go
+    - name: update the list
+      env:
+        GITHUB_USER: "sh0seo"
+        GITHUB_EMAIL: "ssh0702@gmail.com"
+      run: |
+        git config user.name "${GITHUB_USER}"
+        git config user.email "${GITHUB_EMAIL}"
+        git remote set-url origin https://x-access-token:${{ secrets.TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+        git checkout master
+        git commit -am "Auto update"
+        git push -u origin master
