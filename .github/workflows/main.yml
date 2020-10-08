@@ -20,7 +20,7 @@ jobs:
     - name: update the list
       env:
         GITHUB_USER: "sh0seo"
-        GITHUB_EMAIL: "sh0seo@gmail.com"
+        GITHUB_EMAIL: "ssh0702@gmail.com"
       run: |
         git config user.name "${GITHUB_USER}"
         git config user.email "${GITHUB_EMAIL}"
