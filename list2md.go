@@ -40,7 +40,7 @@ type HeadCommit struct {
 }
 
 const (
-	head = `# Top Go Web Frameworks
+	head = `# Top Swift Web Frameworks
 A list of popular github projects related to Go web framework (ranked by stars automatically)
 Please update **list.txt** (via Pull Request)
 
@@ -53,7 +53,7 @@ Please update **list.txt** (via Pull Request)
 )
 
 var (
-	deprecatedRepos = [2]string{"https://github.com/go-martini/martini", "https://github.com/pilu/traffic"}
+	deprecatedRepos = []string{}
 	repos           []Repo
 )
 
