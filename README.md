@@ -16,4 +16,4 @@ Please update **list.txt** (via Pull Request)
 | [Ambassador](https://github.com/envoy/Ambassador) | 148 | 36 | 24 | Super lightweight web framework in Swift based on SWSGI | 2019-04-02 22:05:29 |
 | [corvus](https://github.com/Apodini/corvus) | 33 | 2 | 6 | Meet Corvus, the first strongly declarative server-side framework. | 2020-06-22 13:59:52 |
 
-*Last Automatic Update: 2020-10-08T15:20:53Z*
+*Last Automatic Update: 2020-10-08T15:22:32Z*
