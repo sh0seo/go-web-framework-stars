@@ -4,10 +4,10 @@ Please update **list.txt** (via Pull Request)
 
 | Project Name | Stars | Forks | Open Issues | Description | Last Commit |
 | ------------ | ----- | ----- | ----------- | ----------- | ----------- |
-| [vapor](https://github.com/vapor/vapor) | 19544 | 1192 | 79 | 💧 A server-side Swift web framework. | 2020-10-09 16:10:45 |
-| [Perfect](https://github.com/PerfectlySoft/Perfect) | 13822 | 977 | 60 | Server-side Swift. The Perfect core toolset and framework for Swift Developers. (For mobile back-end development, website and API development, and more…) | 2020-05-19 17:05:06 |
-| [Kitura](https://github.com/Kitura/Kitura) | 7417 | 493 | 80 | A Swift web framework and HTTP server. | 2020-10-04 17:58:12 |
-| [swifter](https://github.com/httpswift/swifter) | 3101 | 457 | 72 | Tiny http server engine written in Swift programming language. | 2020-09-26 17:56:31 |
+| [vapor](https://github.com/vapor/vapor) | 19567 | 1193 | 78 | 💧 A server-side Swift web framework. | 2020-10-29 08:33:14 |
+| [Perfect](https://github.com/PerfectlySoft/Perfect) | 13824 | 976 | 60 | Server-side Swift. The Perfect core toolset and framework for Swift Developers. (For mobile back-end development, website and API development, and more…) | 2020-05-19 17:05:06 |
+| [Kitura](https://github.com/Kitura/Kitura) | 7419 | 493 | 79 | A Swift web framework and HTTP server. | 2020-10-04 17:58:12 |
+| [swifter](https://github.com/httpswift/swifter) | 3105 | 457 | 74 | Tiny http server engine written in Swift programming language. | 2020-09-26 17:56:31 |
 | [Zewo](https://github.com/Zewo/Zewo) | 1845 | 95 | 1 | Lightweight library for web server applications in Swift on macOS and Linux powered by coroutines. | 2020-03-26 16:31:24 |
 | [Embassy](https://github.com/envoy/Embassy) | 424 | 48 | 27 | Super lightweight async HTTP server library in pure Swift runs in iOS / MacOS / Linux | 2019-12-19 22:02:09 |
 | [Curassow](https://github.com/kylef-archive/Curassow) | 396 | 34 | 6 | Swift HTTP server using the pre-fork worker model | 2019-04-18 17:35:00 |
@@ -16,4 +16,4 @@ Please update **list.txt** (via Pull Request)
 | [Ambassador](https://github.com/envoy/Ambassador) | 148 | 36 | 25 | Super lightweight web framework in Swift based on SWSGI | 2019-04-02 22:05:29 |
 | [corvus](https://github.com/Apodini/corvus) | 34 | 2 | 6 | Meet Corvus, the first strongly declarative server-side framework. | 2020-06-22 13:59:52 |
 
-*Last Automatic Update: 2020-10-25T00:18:33Z*
+*Last Automatic Update: 2020-10-30T00:45:17Z*
